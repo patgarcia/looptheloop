@@ -2,15 +2,16 @@
 
 ---
 Title: Loop the Loop! Two Dimensional Sums<br>
-Type: Morning Exercise <br>
+Type: Coding Challenge <br>
 Duration: "0:45"<br>
 Creator: Karolin Rafalski<br>
+Adapted for SEIR<br/>
 Competencies:  Arrays, Loops, Breaking down a problem into smaller steps<br>
-Prerequisites: JavaScript or Ruby Fundamentals<br>
+Prerequisites: JavaScript or Python Fundamentals<br>
 
 ---
 
-### Loop the Loop: 2D Array Additon
+### Loop the Loop: 2D Array Addition
 
 **Make a function that returns the greatest sum of a row, column or diagonal from a two dimensional array**
 
@@ -24,7 +25,7 @@ const arr = [ [10, 20, 30],
 greatestSum(arr); //180
 ```
 
-#### Hungry for More?
+#### Bonus
 
 
 Test your function on this data set and let me know if it was a row, column or diagonal that had the greatest sum!
@@ -41,11 +42,11 @@ const bigArray =
   [ 199, -943, -710, 565, 193, 315, 281, 245 ] ];
 ```
 
-**Still Hungry?**<br>
+**Super Bonus**<br>
 
 Create a function that takes one argument, an integer, that makes a 2D array of random integers between 0  and 1000 where the length of the rows and columns is determined by the argument.
 
 Add a 30% chance that the integer will become negative.
 
-**Still Moar Hungry?**
+**Was this TOO EASY?**
 Sign up for [codewars](codewars.com) and choose a code challenge (in JavaScript) or three and solve them. Found a fun one? Share it in slack!
