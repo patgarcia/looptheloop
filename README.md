@@ -48,5 +48,5 @@ Create a function that takes one argument, an integer, that makes a 2D array of 
 
 Add a 30% chance that the integer will become negative.
 
-**Was this TOO EASY?**
+**Was this TOO EASY?**<br/>
 Sign up for [codewars](codewars.com) and choose a code challenge (in JavaScript) or three and solve them. Found a fun one? Share it in slack!
