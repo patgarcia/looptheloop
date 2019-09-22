@@ -1,4 +1,4 @@
-![](/ga_cog.png)
+ga_cog.png
 
 ---
 Title: Loop the Loop! Two Dimensional Sums<br>
