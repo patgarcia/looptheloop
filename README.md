@@ -3,7 +3,7 @@
 ---
 Title: Loop the Loop! Two Dimensional Sums<br>
 Type: Coding Challenge <br>
-Duration: "0:45"<br>
+Duration: "0:30"<br>
 Creator: Karolin Rafalski<br>
 Adapted for SEIR<br/>
 Competencies:  Arrays, Loops, Breaking down a problem into smaller steps<br>
