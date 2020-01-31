@@ -11,20 +11,20 @@ Prerequisites: JavaScript or Python Fundamentals<br>
 
 ---
 
-Coding challenges are a chance for you to practice thinking through problems like a developer. It's okay to not finish all of them all of the time. If you get stuck, write some pseudo-code, talk to your teammates, and/or rubber-duck it out! 
+Coding challenges are a chance for you to practice thinking through problems like a developer. It's okay to not finish all of them all of the time. If you get stuck, write some pseudo-code, talk to your teammates, and/or rubber-duck it out. Feel free to look up documentation and google for ideas, but not for whole lines of code. The purpose of these coding challenges is for YOU to practice breaking down the logic and algorithms in a way that makes sense to you. 
 
 #### Instructions: 
 
 It is up to you how and where you'd like to store your coding challenge work. One option is to use an online REPL (like [CodePen](https://codepen.io/) or [repl.it](https://repl.it/languages/nodejs)--sign up for an account so you can save your REPLs and progress), and the other is to work in a JavaScript file in your code editor. There are pros and cons to each option, but if you'd like to set up a JavaScript file, you may follow the instructions below: 
 
-1. Change directory into `./sei/sandbox`
+1. Change directory into `./sei/sandbox` via terminal.
 2. Clone this directory into `sandbox`. 
-3. `cd` into `loopTheLoop` then use `code . ` to open. 
-4. Create a JavaScript file: `touch index.html script.js`
+3. `cd loopTheLoop` then create your files: `touch index.html script.js`.
+4. Use `code . ` to open in your code editor. 
 5. Add boilerplate to your `index.html`, add a `console.log("hello world")` to your `script.js` file, and connect `script.js` to your `index.html` file with a `<script>` tag, then open `index.html` with Live Server. 
-6. If you set up and connected files correctly, you should see "hello world" in the console in Dev Tools. Now you're ready for your coding challenge! 
+6. If you set up and connected files correctly, you should see "hello world" in the console in Dev Tools. Now you're ready to begin your coding challenge! 
 
-(After today's lesson, you will be able to check JavaScript code output using a Node command from terminal instead of setting up an extraneous index.html file.)
+(After today's lesson, you will be able to check output from JavaScript files using a Node command from terminal instead of setting up an extraneous index.html file. If you'd like a preview, try running `node script.js` in the terminal from within this repo directory and see what happens.)
 
 ## Part 1: It's Hip to Be Square
 
@@ -69,9 +69,24 @@ const bigArray =
 
 ## Part 4: Super Bonus - Generate 2D Arrays 
 
-Create a function that takes one argument, an integer, that makes a 2D array of random integers between 0  and 1000 where the length of the rows and columns is determined by the argument.
+Part A: Create a function that takes one argument, an integer, that makes a 2D array of random integers between 0  and 1000 where the length of the rows and columns is determined by the argument.
 
-Add a 30% chance that the integer will become negative.
+```
+function generateArray(num) {
+  //...your code here
+}
+
+generateArray(4); 
+   // ... [
+  [ 888, 919, 267, 567 ],
+  [ 717, 17, 121, 794 ],
+  [ 170, 880, 816, 260 ],
+  [ 844, 835, 608, 487 ]
+]
+```
+
+Part B: Add a 30% chance that the integers in the array will be negative.
 
 **Was this TOO EASY?**<br/>
-Sign up for [codewars](codewars.com) and choose a code challenge (in JavaScript) or three and solve them. Found a fun one? Share it in slack!
+- If you used nested loops in your code above, try refactoring to include array methods such as `.map()` and `.reduce()`.
+- Sign up for [codewars](codewars.com) and choose a code challenge (in JavaScript) or three and solve them. Found a fun one? Share it in slack!
