@@ -72,12 +72,12 @@ const bigArray =
 Part A: Create a function that takes one argument, an integer, that makes a 2D array of random integers between 0  and 1000 where the length of the rows and columns is determined by the argument.
 
 ```
-function generateArray(num) {
+function generateArray(integer) {
   //...your code here
 }
 
 generateArray(4); 
-   // ... [
+   // ...returns an array of arrays with random integers, with 4 rows and 4 columns [
   [ 888, 919, 267, 567 ],
   [ 717, 17, 121, 794 ],
   [ 170, 880, 816, 260 ],
