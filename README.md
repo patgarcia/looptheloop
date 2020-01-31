@@ -20,7 +20,7 @@ It is up to you how and where you'd like to store your coding challenge work. On
 1. Change directory into `./sei/sandbox`
 2. Clone this directory into `sandbox`. 
 3. `cd` into `loopTheLoop` then use `code . ` to open. 
-4. Create a JavaScript file: `touch index.hmtl script.js`
+4. Create a JavaScript file: `touch index.html script.js`
 5. Add boilerplate to your `index.html`, add a `console.log("hello world")` to your `script.js` file, and connect `script.js` to your `index.html` file with a `<script>` tag, then open `index.html` with Live Server. 
 6. If you set up and connected files correctly, you should see "hello world" in the console in Dev Tools. Now you're ready for your coding challenge! 
 
