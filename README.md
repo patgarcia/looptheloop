@@ -22,7 +22,7 @@ It is up to you how and where you'd like to store your coding challenge work. On
 3. `cd loopTheLoop` then create your files: `touch index.html script.js`.
 4. Use `code . ` to open in your code editor. 
 5. Add boilerplate to your `index.html`, add a `console.log("hello world")` to your `script.js` file, and connect `script.js` to your `index.html` file with a `<script>` tag, then open `index.html` with Live Server. 
-6. If you set up and connected files correctly, you should see "hello world" in the console in Dev Tools. Now you're ready to begin your coding challenge! 
+6. If you set up and connected files correctly, you should see "hello world" in the console in Dev Tools. Now you're ready to begin your coding challenge!
 
 (After today's lesson, you will be able to check output from JavaScript files using a Node command from terminal instead of setting up an extraneous index.html file. If you'd like a preview, try running `node script.js` in the terminal from within this repo directory and see what happens.)
 
@@ -77,12 +77,13 @@ function generateArray(integer) {
 }
 
 generateArray(4); 
-   // ...returns an array of arrays with random integers, with 4 rows and 4 columns [
-  [ 888, 919, 267, 567 ],
-  [ 717, 17, 121, 794 ],
-  [ 170, 880, 816, 260 ],
-  [ 844, 835, 608, 487 ]
-]
+   // ...returns an array of arrays with random integers, with 4 rows and 4 columns: 
+            [
+              [ 888, 919, 267, 567 ],
+              [ 717, 17, 121, 794 ],
+              [ 170, 880, 816, 260 ],
+              [ 844, 835, 608, 487 ]
+            ]
 ```
 
 Part B: Add a 30% chance that the integers in the array will be negative.
