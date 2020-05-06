@@ -18,10 +18,9 @@ Coding challenges are a chance for you to practice thinking through problems lik
 It is up to you how and where you'd like to store your coding challenge work. One option is to use an online REPL (like [CodePen](https://codepen.io/) or [repl.it](https://repl.it/languages/nodejs)--sign up for an account so you can save your REPLs and progress), and the other is to work in a JavaScript file in your code editor. There are pros and cons to each option, but if you'd like to set up a JavaScript file, you may follow the instructions below: 
 
 1. Change directory into `./sei/sandbox` via terminal.
-2. Clone this directory into `sandbox`. 
-3. `cd loopTheLoop` then create your files: `touch index.html script.js`.
-4. Use `code . ` to open in your code editor. 
-5. Check output from JavaScript files using a Node command from terminal instead of setting up an extraneous index.html file. Run `node script.js` in the terminal from within this repo directory.
+1. Clone this directory into `sandbox`. 
+1. Use `code . ` to open in your code editor. 
+1 Check output from JavaScript files using a Node command from terminal instead of setting up an extraneous index.html file. Run `node loopTheLoop.js` in the terminal from within this repo directory.
 
 ## Part 1: It's Hip to Be Square
 
