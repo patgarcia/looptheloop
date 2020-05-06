@@ -26,7 +26,7 @@ It is up to you how and where you'd like to store your coding challenge work. On
 
 **Make a function that that squares each number passed into it from an array, and sums the results.**
 
-```
+```javascript
 const arr = [1, 2, 2] 
 
 sumOfSquares(arr); //should return 9, because 1^2 + 2^2 + 2^2 = 9.
@@ -38,7 +38,7 @@ sumOfSquares(arr); //should return 9, because 1^2 + 2^2 + 2^2 = 9.
 
 
 Make a function that takes one argument, a two dimensional array, where all the arrays are the same length, and returns the greatest sum of the numbers by row, column and diagonal.
-```
+```javascript
 const arr = [ [10, 20, 30],
             [40, 50, 60],
             [70, -80, 90] ];
@@ -51,7 +51,7 @@ loopTheLoop(arr); //180
 
 Test your function on this data set and let me know if it was a row, column or diagonal that had the greatest sum!
 
-```
+```javascript
 const bigArray =
 [ [ 887, -541, -430, -590, 117, 172, -319, -18 ],
   [ -269, 964, 209, 840, -456, 156, 365, -568 ],
@@ -67,7 +67,7 @@ const bigArray =
 
 Part A: Create a function that takes one argument, an integer, that makes a 2D array of random integers between 0  and 1000 where the length of the rows and columns is determined by the argument.
 
-```
+```javascript
 function generateArray(integer) {
   //...your code here
 }
